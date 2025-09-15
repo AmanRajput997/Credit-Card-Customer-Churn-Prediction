@@ -1,34 +1,34 @@
 # Credit-Card-Customer-Churn-Prediction
-📝 Description
+## 📝 Description
 This project aims to predict whether a credit card customer will churn (i.e., close their account). By identifying customers who are likely to churn, the bank can take proactive steps to retain them. This is a binary classification problem, and a neural network model is built using TensorFlow and Keras to make the predictions.
 
-💾 Dataset
+## 💾 Dataset
 The dataset used for this project is the "Churn Modelling" dataset from Kaggle. It contains information about bank customers who have held a credit card.
 
 You can find the dataset here: [Credit Card Customer Churn Prediction Dataset](https://www.google.com/search?q=https://www.kaggle.com/datasets/sakshigoyal7/credit-card-customer-churn-prediction)
 
-Columns
+### Columns
 The dataset has 10,000 rows and the following 14 columns:
 
-• RowNumber: Row number
+• __RowNumber:__ Row number
 
-• CustomerId: Unique identifier for each customer
+• **CustomerId:** Unique identifier for each customer
 
-• Surname: Customer's surname
+• __Surname:__ Customer's surname
 
-• CreditScore: Customer's credit score
+•__CreditScore:__ Customer's credit score
 
-• Geography: Customer's country (France, Spain, Germany)
+• __Geography:__ Customer's country (France, Spain, Germany)
 
-• Gender: Customer's gender
+• __Gender:__ Customer's gender
 
-• Age: Customer's age
+• __Age:__ Customer's age
 
-• Tenure: Number of years the customer has been with the bank
+• __Tenure:__ Number of years the customer has been with the bank
 
-• Balance: Customer's account balance
+• __Balance:__ Customer's account balance
 
-• NumOfProducts: Number of bank products the customer uses
+• __NumOfProducts:__ Number of bank products the customer uses
 
 • HasCrCard: Whether the customer has a credit card (1 = yes, 0 = no)
 
@@ -38,7 +38,7 @@ The dataset has 10,000 rows and the following 14 columns:
 
 • Exited: Whether the customer has churned (1 = yes, 0 = no) - This is the target variable.
 
-⚙️ Methodology
+## ⚙️ Methodology
 The project follows these steps:
 
 1. Data Loading and Exploration: The data is loaded using pandas, and initial exploration is done to understand the data's structure and features.
@@ -63,12 +63,12 @@ The project follows these steps:
 
 6. Model Compilation and Training: The model is compiled with the Adam optimizer and binary cross-entropy loss function. It is then trained for 100 epochs.
 
-📈 Results
+## 📈 Results
 The model's performance is evaluated based on its accuracy. The final accuracy on the test set is approximately 85%.
 
 Training and Validation Loss
 Training and Validation Accuracy
-🚀 How to Run
+## 🚀 How to Run
 To run this project, you will need to have a Python environment with the following libraries installed:
 
 • pandas
@@ -81,4 +81,4 @@ To run this project, you will need to have a Python environment with the followi
 
 • matplotlib
 
-You can then open the Jupyter Notebook file (credit-card-customer-churn-prediction.ipynb) and run the cells sequentially.
+__You can then open the Jupyter Notebook file (credit-card-customer-churn-prediction.ipynb) and run the cells sequentially.__
